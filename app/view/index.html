@@ -5,89 +5,104 @@
   <script src='../static/client.js'></script>
 </head>
 <body>
-<div>
-  	<p>
-		<h2 style="text-align:center;">
-			石油管材金相组织识别-测试版v1
-		</h2>
-		<p>
-			这个小东西可以对5种石油管材组织进行识别，识别准确度约为80%，仍然在持续改进。。。&nbsp;
-		</p>
-		<p>
-			<strong>五种组织分别为：</strong>
-		</p>
-		<p>
-			<ul>
-				<li>
-					<strong>S</strong>&nbsp;:回火索氏体,&nbsp;
-				</li>
-				<li>
-					<strong>F+P</strong>&nbsp;:铁素体加珠光体,
-				</li>
-				<li>
-					<strong>B:</strong> 粒状贝氏体
-				</li>
-				<li>
-					<strong>B+PF:</strong> 粒状贝氏体+多边铁素体
-				</li>
-				<li>
-					<strong>B+PF+P:</strong> 粒状贝氏体+多变铁素体+珠光体
-				</li>
-			</ul>
-		</p>
-		<p>
-			欢迎各位上传图片测试，两个要求：
-		</p>
-	</p>
+<p>
+	<br />
+</p>
+<p>
+	<br />
+</p>
+<h2 style="text-align:center;">
+	石油管材金相组织识别-测试版v1
+</h2>
+<p style="text-align:center;">
+	这个小东西可以对5种石油管材组织进行识别，识别准确度约为80%，仍然在持续改进。。。&nbsp;
+</p>
+<p style="text-align:center;">
+	<strong>五种组织分别为：</strong>
+</p>
+<p style="text-align:center;">
+	<strong>
+	<table style="width:25%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000" align="center">
+		<tbody>
+			<tr>
+				<td>
+					<strong>S</strong><span>&nbsp;</span><br />
+				</td>
+				<td>
+					<span>回火索氏体,&nbsp;</span><span></span><br />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<strong>F+P</strong><span>&nbsp;</span><br />
+				</td>
+				<td>
+					<span>铁素体加珠光体,</span><br />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<strong>B</strong><br />
+				</td>
+				<td>
+					<span>粒状贝氏体</span><br />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<strong>B+PF</strong><br />
+				</td>
+				<td>
+					<span>粒状贝氏体+多边铁素体</span><br />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<strong>B+PF+P</strong><br />
+				</td>
+				<td>
+					<span>粒状贝氏体+多变铁素体+珠光体</span><br />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+<br />
+</strong>欢迎各位上传图片测试，两个要求：
 </p>
 <blockquote>
-	<p>
-		<p>
-			<p>
-				1）图片尺寸不能过大；
-			</p>
-		</p>
+	<p style="text-align:center;">
+		1）图片尺寸不能过大；
 	</p>
-	<p>
-		<p>
-			<p>
-				2）不要上传风景照，个人头像等非金相组织照片，它会把你上传的东西当成金相组织的。
-			</p>
-		</p>
+	<p style="text-align:center;">
+		2）不要上传风景照，个人头像等非金相组织照片，它会把你上传的东西当成金相组织的。
 	</p>
 </blockquote>
-<p>
-	<p>
-		<p>
-			欢迎联系：<strong>Knight</strong>，<strong>1819211050八</strong>
-		</p>
-		<p>
-			<strong>PS，短暂测试，随时宕机。</strong>
-		</p>
-    <div class='content'>
-      <div class='no-display'>
-        <input id='file-input'
-               class='no-display'
-               type='file'
-               name='file'
-               accept='image/*'
-               onchange='showPicked(this)'>
-      </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
-      <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
-      </div>
-      <div>
-        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
-      </div>
-      <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
-      </div>
-      <div class='result-label'>
-        <label id='result-label'></label>
-      </div>
-    </div>
-  </div>
+<p style="text-align:center;">
+	欢迎联系：<strong>Knight</strong>，<strong>1819211050八</strong> 
+</p>
+<p style="text-align:center;">
+	<strong>PS，短暂测试，随时宕机。</strong> 
+</p>
+<div class="content">
+	<div class="no-display">
+	</div>
+	<div style="text-align:center;">
+		Select Image
+	</div>
+	<div class="upload-label" style="text-align:center;">
+		No file chosen
+	</div>
+	<div style="text-align:center;">
+		<img id="image-picked" class="no-display" alt="Chosen Image" height="200" /> 
+	</div>
+	<div class="analyze" style="text-align:center;">
+		Analyze
+	</div>
+	<div class="result-label">
+	</div>
 </div>
+<p>
+	<br />
+</p>
 </body>
 </html>
